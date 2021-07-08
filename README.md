@@ -34,17 +34,12 @@ Open a command window and run:
 
 ## Use Maven to run a specific case from this list
 	
-	@Bulkmassive  
-	@SinisterBulkmassive
-	@OpenItemGroupJobCollection
-	@GenerationOfPrimaDepositINT14Collection
-	@PaymentsCollection
-	@CurrentRiskReserve
+	@SearchFlight  
 
 Example:
 - Open a command window and run:
 
-	mvn clean verify -D tags=Test1                             -> Test 1.
+	mvn clean verify -D tags=SearchFlight                             -> SearchFlight.
 
 	
 	
